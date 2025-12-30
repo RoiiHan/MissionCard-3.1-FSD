@@ -16,24 +16,28 @@
 <body>
 <section>
     <div class="login-box">
-        <h1> <img  class="logo-login" src="./asset/movie-open.png" alt=""> CHILL</h1>
-        <h2>Masuk</h2>
-        <p>Selamat Datang</p>
+        <div class="login-box-desc">
+        <p class="judul"> <img  class="logo-login" src="./asset/movie-open.png" alt=""> CHILL</p>
+        <h3>Masuk</h3>
+        <h6>Selamat Datang Kembali</h6>
         <form action="">
-            <label for="username">Username</label><br>
+            <label class="username" for="username">Username</label>
             <input type="text" placeholder="Masukkan Username">
             <br>
-            <label for="password">Kata Sandi</label><br>
+            <label class="password" for="password">Kata Sandi</label>
             <input type="password" placeholder="Masukkan Kata Sandi">
         </form>
         <div class="daftar">
-            <div><p>Belum Punya Akun? <a class="daftar-link" href="#">Daftar</a></p></div>
-            <div><a href="#" class="lupa-sandi">Lupa Kata Sandi></a></div>
+            <div class="daftar1"><p>Belum Punya Akun? <a class="daftar-link" href="#"> Daftar</a></p></div>
+            <div class="daftar2"><a href="#" class="lupa-sandi">Lupa Kata Sandi?</a></div>
         </div>
-        <div class="Masuk">
-            <button>Masuk</button>
+        <div class="masuk-btn">
+            <button class="btn-masuk-1">Masuk</button>
             <p>Atau</p>
-            <button><img class="img-btn-google" src="./asset/google-img.png" alt=""> Masuk Dengan Google </button>
+            <button class="btn-masuk-google">
+                <div><img class="img-btn-google" src="./asset/google-img.png" alt=""></div> 
+                <p> Masuk Dengan Google</p> </button>
+        </div>
         </div>
     </div>
 </section>
