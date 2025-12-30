@@ -1,0 +1,11 @@
+
+body {
+    font-family: Lato;
+    background-image: url(./asset/Login-img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.login-box {
+    background-color: white;
+}
