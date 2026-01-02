@@ -1214,7 +1214,7 @@ display: none;
   .footer-section li {
     font-size: 11px;
   }
-
+    
   .footer-grid {
     grid-template-columns: repeat(3, auto);
     gap: 30px;
