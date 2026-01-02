@@ -8,9 +8,7 @@
      <link rel="stylesheet" href="../css/beranda.css">
     <!--  -->
 
-    <!-- JavaScript -->
-    <script src="script.js"></script>
-    <!--  -->
+    
 
      <!-- Font -->
       <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -35,14 +33,21 @@
         </ul>
         <div class="profil">
             <img src="../asset/Ellipse 395.png" alt="">
-            <i id="toogle-menu" class="fa-solid fa-arrow-down fa-lg"></i>
+            <button class="toogle"><i id="toogle-icon" class="fa-solid fa-arrow-down fa-lg"></i></button>
+            <div class="menu">
+                <ul>
+                    <li><i class="fa-solid fa-user" style="color: #fff;"></i> Profil Saya</li>
+                    <li><i class="fa-solid fa-star" style="color: #fff;"></i>Ubah Premium</li>
+                    <li><i class="fa-solid fa-arrow-right-from-bracket" style="color: #fff;"></i>Keluar</li>
+                </ul>
+            </div>
         </div>
     </nav>
     </header>
     <main>
         <section class="hero-section">
             <article class="fitur-herosection">
-                <h1>Duty After School</h1>
+                <h1>Fast X May</h1>
                 <p>Ancaman misterius muncul dan mengacaukan dunia. Dalam situasi darurat, para gengster yang terkenal di kota direkrut untuk menjadi pasukan tempur untuk menghadapi perang yang belum pernah mereka kenal. </p>
 
                 <div class="action-herosection">
@@ -60,8 +65,8 @@
             <h1>Melanjutkan Tonton Film</h1>
             <div class="crousel">
                 
-                <div class="crousel-track">
-                    <button class="before"> < </button>
+                <div id="crousel-track" class="crousel-track">
+                    <button id="before" class="before"> < </button>
                 
                     <div class="card card1">
                         <div class="title">
@@ -90,7 +95,7 @@
                             <p>⭐ 4.5/5 </p>
                         </div>
                     </div>
-                    <button class="after" > > </button>
+                    <button id="after" class="after" > > </button>
             </div>
             </div>
         </section>
@@ -118,7 +123,7 @@
                     
                     <div class="card-tranding card3-tranding">
                         <div class="title-tranding">
-                            <p>FastXNav</p>
+                            <p>FastXMay</p>
                             <p>⭐ 4.5/5 </p>
                         </div>
                     </div>
@@ -237,5 +242,9 @@
     </div>
   </div>
 </footer>
+
+<!-- JavaScript -->
+    <script src="script.js"></script>
+<!--  -->
 </body>
 </html>

@@ -12,6 +12,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
 
 <!--  -->
+     <!-- fontawasome -->
+     <script src="https://kit.fontawesome.com/b18a8b5039.js" crossorigin="anonymous"></script>
+     <!--  -->
 </head>
 <body>
 <section>
@@ -25,14 +28,17 @@
             <input type="text" placeholder="Masukkan Username">
             <br>
             <label class="password" for="password">Kata Sandi</label>
-            <input type="password" placeholder="Masukkan Kata Sandi">
+             <div class="password-wrapper">
+                <input type="password" id="password" placeholder="Masukkan Kata Sandi">
+                <i class="fa-solid fa-eye"></i>
+            </div>   
         </form>
         <div class="daftar">
             <div class="daftar1"><p>Belum Punya Akun? <a class="daftar-link" href="./register.html"> Daftar</a></p></div>
             <div class="daftar2"><a href="#" class="lupa-sandi">Lupa Kata Sandi?</a></div>
         </div>
         <div class="masuk-btn">
-            <button class="btn-masuk-1">Masuk</button>
+            <button class="btn-masuk-1"><a href="./beranda.html">Masuk</a> </button>
             <p>Atau</p>
             <button class="btn-masuk-google">
                 <div><img class="img-btn-google" src="../asset/google-img.png" alt=""></div> 
